@@ -12,6 +12,7 @@
       padding: 0;
       background: #f0f4f8; /* light blue */
       color: #232323;
+      text-align: center;
     }
 
     header {
@@ -38,7 +39,34 @@
     section {
       padding: 2em;
       text-align: center;
-      font-size: 18px;
+    }
+
+    .services {
+      display: flex;
+      justify-content: space-around;
+      flex-wrap: wrap;
+    }
+
+    .service {
+      width: 30%;
+      margin: 1em;
+      padding: 1em;
+      background: #ffffff;
+      border-radius: 8px;
+    }
+
+    .bots {
+      margin-top: 2em;
+      display: flex;
+    }
+
+    .bot {
+      width: 30%;
+      margin: 1em;
+      padding: 1em;
+      background: #ffffff;
+      border-radius: 8px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     }
 
     footer {
@@ -67,21 +95,44 @@
 
   <section id="services">
     <h2>Our Services</h2>
-    <p>We offer a wide range of bot creation services to meet the unique requirements of your Discord server.</p><p> Our services include:</p>
-    <ul>
-      <li>Custom Bot Development</li>
-      <li>Moderation Bots</li>
-      <li>Entertainment Bots</li>
-      <li>Automation Bots</li>
-      <!-- Add more services as needed -->
-    </ul>
-    <p>Here are current bots that we have created:</p>
-    <ul>
-      <li>Assistant Central -- Moderation Bot</li>
-      <li>Robluxeon -- Integration Bot</li>
-      <li>SupportMate -- Support Bot</li>
-    </ul>
-    <p>At BotForge Solutions, our unwavering commitment is to consistently provide robust support to our esteemed customers. We are dedicated to resolving your challenges with utmost diligence. Feel free to reach out to us for any inquiries or concerns, as we stand ready to address and assist you in a timely and effective manner. Your satisfaction is our priority, and we look forward to the opportunity to serve you with the highest level of professionalism and expertise.</p>
+    <div class="services">
+      <div class="service">
+        <h3>Scripting Service</h3>
+        <p>Custom scripting for unique bot functionalities.</p>
+      </div>
+      <div class="service">
+        <h3>Building Service</h3>
+        <p>Bot construction for various purposes and requirements.</p>
+      </div>
+      <div class="service">
+        <h3>Modeling Service</h3>
+        <p>Creating 3D models for interactive bot features.</p>
+      </div>
+      <div class="service">
+        <h3>Interface Service</h3>
+        <p>Designing user-friendly interfaces for your bot.</p>
+      </div>
+    </div>
+
+    <h2>Featured Bots</h2>
+    <div class="bots">
+      <div class="bot">
+        <h3>Assistant Central</h3>
+        <p>Supreme server guardian, unmatched protection.</p>
+      </div>
+      <div class="bot">
+        <h3>Robluxeon</h3>
+        <p>Mastering Roblox groups and Discord servers seamlessly—your ultimate management bot.</p>
+      </div>
+      <div class="bot">
+        <h3>SupportMate</h3>
+        <p>The bot that manages all of your customer's inquiries.</p>
+      </div>
+      <div class="bot">
+        <h3>CellForge</h3>
+        <p>The bot that manages ranks in CellForge Prison.</p>
+      </div>
+    </div>
   </section>
 
   <footer>
