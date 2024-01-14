@@ -13,6 +13,7 @@
       background: #f0f4f8; /* light blue */
       color: #232323;
       text-align: center;
+      overflow-x: hidden; /* This will hide horizontal scrollbar */
     }
 
     header {
@@ -20,14 +21,17 @@
       color: #ffffff;
       padding: 1em;
       text-align: center;
+      width: 100%;
     }
 
     nav {
       background: #35465d; /* slightly darker blue for navigation */
       padding: 0.5em;
       text-align: center;
+      width: 100vw;
+      box-sizing: border-box;
     }
-
+    
     nav a {
       color: #ffffff;
       text-decoration: none;
@@ -74,9 +78,9 @@
       color: #ffffff;
       padding: 1em;
       text-align: center;
-      position: bottom;
-      bottom: 0;
       width: 100%;
+      position: relative;
+      bottom: 0;
     }
   </style>
 </head>
@@ -122,15 +126,15 @@
       </div>
       <div class="bot">
         <h3>Robluxeon</h3>
-        <p>Mastering Roblox groups and Discord servers seamlessly—your ultimate management bot.</p>
+        <p>Mastering Roblox groups and Discord servers seamlessly — your ultimate management bot.</p>
+      </div>
+      <div class="bot">
+        <h3>RoboSync</h3>
+        <p>Mastering Roblox groups and Discord servers seamlessly — your ultimate management bot.</p>
       </div>
       <div class="bot">
         <h3>SupportMate</h3>
         <p>The bot that manages all of your customer's inquiries.</p>
-      </div>
-      <div class="bot">
-        <h3>CellForge</h3>
-        <p>The bot that manages ranks in CellForge Prison.</p>
       </div>
     </div>
   </section>
