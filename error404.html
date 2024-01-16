@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>BotForge Solutions</title>
+  <title>404 Not Found - BotForge Solutions</title>
   <link rel="icon" type="image/x-icon" href="https://cdn.discordapp.com/attachments/1185652756388786218/1190763619680534658/BotForge.jpeg?ex=65a2fc0a&is=6590870a&hm=f8c43724a51893d2727d23d08f7e162afba396ea12dc764f12b2b4d7cbe492c1&">
   <style>
     body {
@@ -12,6 +12,12 @@
       padding: 0;
       background: #f0f4f8; /* light blue */
       color: #232323;
+      max-width: 1800px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+      height: 100vh;
     }
 
     header {
@@ -19,6 +25,7 @@
       color: #ffffff;
       padding: 1em;
       text-align: center;
+      position: relative;
     }
 
     nav {
@@ -37,13 +44,29 @@
 
     section {
       padding: 2em;
+      font-size: 18px;
+      max-width: 1000px;
+      margin: 0 auto; /* Center content */
+      overflow: hidden;
+    }
+
+    h1 {
+      color: #333;
+    }
+
+    h2 {
+      color: red;
+      font-weight: bold;
+    }
+
+    p {
+      color: black;
+      max-width: 600px;
       text-align: center;
     }
 
-    .dashboard-button {
+    button {
       position: absolute;
-      top: 20px;
-      right: 20px;
       background-color: darkblue;
       color: #fff;
       padding: 15px;
@@ -51,32 +74,12 @@
       border-radius: 4px;
       cursor: pointer;
       text-decoration: none;
+      text-align: center;
+      left: 700px;
     }
 
-    .dashboard-button:hover {
+    button:hover {
       background-color: blue;
-    }
-
-
-    form {
-      max-width: 600px;
-      margin: 0 auto;
-    }
-
-    input,
-    textarea {
-      width: 100%;
-      padding: 0.5em;
-      margin: 0.5em 0;
-      box-sizing: border-box;
-    }
-
-    button {
-      background-color: #1a2653; /* dark blue */
-      color: #ffffff;
-      padding: 0.5em 1em;
-      border: none;
-      cursor: pointer;
     }
 
     footer {
@@ -91,38 +94,12 @@
   </style>
 </head>
 <body>
-  <header>
-    <h1>BotForge Solutions</h1>
-    <p>Your Discord Bot Creation Experts</p>
-    <a class="dashboard-button" href="login.html">Dashboard</a>
-  </header>
-
-  <nav>
-    <a href="index.html">Home</a>
-    <a href="about.html">About Us</a>
-    <a href="https://central3465.github.io/applications/" target="_blank">Careers</a>
-    <a href="services.html">Services</a>
-    <a href="contact.html">Contact</a>
-  </nav>
-
-  <section id="contact">
-    <h2>Contact Us</h2>
-    <form action="mailto:support@botforge.solutions" method="post">
-      <label for="name">Name:</label>
-      <input type="text" id="name" name="name" required>
-
-      <label for="email">Email:</label>
-      <input type="email" id="email" name="email" required>
-
-      <label for="message">Message:</label>
-      <textarea id="message" name="message" rows="4" required></textarea>
-
-      <button type="submit">Submit</button>
-    </form>
+  <section>
+    <h2>404 Not Found</h2>
+    <p>The page you are looking for might be in another castle!</p>
+    <a href="index.html">
+      <button>Go Back</button>
+    </a>
   </section>
-
-  <footer>
-    <p>&copy; 2023 BotForge Solutions. All rights reserved.</p>
-  </footer>
 </body>
 </html>
